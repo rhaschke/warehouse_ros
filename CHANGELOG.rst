@@ -2,6 +2,13 @@
 Changelog for package warehouse_ros
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.9.5 (2022-05-10)
+------------------
+* Remove user-provided constructors and destructors (`#51 <https://github.com/ros-planning/warehouse_ros/issues/51>`_)
+  ``ResultIterator::metadata_only_`` is now non-const to allow moving and assigning
+* Add virtual destructor to ``MessageCollectionHelper`` and ``ResultIteratorHelper`` (`#50 <https://github.com/ros-planning/warehouse_ros/issues/50>`_)
+* Contributors: Bjar Ne
+
 0.9.4 (2020-04-25)
 ------------------
 * Cleanup: fix catkin_lint warnings, remove obsolete test folder
